@@ -18,7 +18,7 @@ function Gap() {
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-[#FFF2F2] flex flex-row">
+        <div className="min-h-screen bg-[#FFF2F2] flex flex-col">
             <Component1/>
             <Gap/>
             <Component2/>
